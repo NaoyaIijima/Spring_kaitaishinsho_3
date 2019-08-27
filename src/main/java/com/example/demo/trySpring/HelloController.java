@@ -1,10 +1,13 @@
+package com.example.demo.trySpring;
+
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping; 
+import org.springframework.web.bind.annotation.GetMapping;
+
 // ポイント １：@ Controller 
 @Controller 
 public class HelloController {
     // ポイント ２：@ GetMapping
-    @GetMapping("/ hello") 
+    @GetMapping("/hello") 
     public String getHello() { // hello. html に 画面 遷移 
         return "hello"; 
     }
