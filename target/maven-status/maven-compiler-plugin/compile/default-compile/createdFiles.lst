@@ -1,2 +1,5 @@
 com/example/demo/trySpring/HelloController.class
+com/example/demo/trySpring/Employee.class
 com/example/demo/DemoApplication.class
+com/example/demo/trySpring/HelloRepository.class
+com/example/demo/trySpring/HelloService.class
